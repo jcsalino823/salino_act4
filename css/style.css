@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: #ebebeb
+}
+
+header{
+    padding: 20px;
+    background: palevioletred;
+    color: #fff;
+    margin-bottom: 10px
+}
+
+.container{
+    margin: auto;
+    max-width: 1024px;
+}
+
+
+/* trivia */
+#get-trivia{
+    border: 0px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background: rgb(231, 137, 169);
+    color: #fff;
+    cursor: pointer;
+}
+
+#get-trivia:disabled{
+    opacity: .6;
+    cursor: not-allowed;
+}
+
